@@ -1,0 +1,9 @@
+  {PolicyName}:
+    Type: AWS::IAM::ManagedPolicy
+    Properties:
+      Description: {PolicyDescription}
+      ManagedPolicyName: {PolicyName}
+      Path: /
+      PolicyDocument:
+        Version: {PolicyDocumentVersion}
+        Statement: {Effects}
